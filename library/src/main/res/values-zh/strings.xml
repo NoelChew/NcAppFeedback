@@ -11,7 +11,7 @@
     <string name="nc_utils_feedback_confirm_send">确定发送?</string>
     <string name="nc_utils_feedback_loading">发送中</string>
     <string name="nc_utils_feedback_please_wait">请稍等...</string>
-    <string name="nc_utils_feedback_for_bad_rating">谢谢您的评价。您的反馈意见可帮助我们进步。</string>
+    <string name="nc_utils_feedback_for_bad_rating">谢谢您的评价。您的反馈能帮助我们进步。</string>
 
     <!-- feedback anonymously-->
     <string name="nc_utils_feedback_message">如果您有任何意见，请与我们分享。</string>
