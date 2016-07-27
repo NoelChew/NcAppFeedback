@@ -12,6 +12,7 @@
     <string name="nc_utils_feedback_confirm_send">Confirm send?</string>
     <string name="nc_utils_feedback_loading">Loading</string>
     <string name="nc_utils_feedback_please_wait">Please wait...</string>
+    <string name="nc_utils_feedback_for_bad_rating">Thank you for your rating. Your feedback can help us improve.</string>
 
     <!-- feedback anonymously-->
     <string name="nc_utils_feedback_message">Please give us your honest feedback.</string>
