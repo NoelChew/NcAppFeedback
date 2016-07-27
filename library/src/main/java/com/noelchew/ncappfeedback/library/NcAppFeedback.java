@@ -33,6 +33,11 @@ public class NcAppFeedback {
         feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, R.string.nc_utils_feedback, listener, progressDialog, false);
     }
 
+    // this is used when user has submitted a bad rating
+    public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog) {
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, false);
+    }
+
     public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
 
         String appName = "NcAppFeedback App";
