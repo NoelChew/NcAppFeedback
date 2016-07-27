@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog.show();
             }
 
-            NcAppFeedback.feedback(context, etSparkPostApiKey.getText().toString(), etSenderEmail.getText().toString(), etSenderName.getText().toString(), etRecipientEmail.getText().toString(), new NcAppFeedbackListener() {
+            NcAppFeedback.feedback(context, etSparkPostApiKey.getText().toString(), etSenderEmail.getText().toString(), etSenderName.getText().toString(), etRecipientEmail.getText().toString(), R.string.nc_utils_feedback, new NcAppFeedbackListener() {
                 @Override
                 public void onFeedbackAnonymouslySuccess() {
                     Toast.makeText(context, "onFeedbackAnonymouslySuccess()", Toast.LENGTH_SHORT).show();

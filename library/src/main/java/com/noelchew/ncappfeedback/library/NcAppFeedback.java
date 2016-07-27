@@ -30,10 +30,10 @@ public class NcAppFeedback {
     private static final String TAG = "NcAppFeedback";
 
     public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog) {
-        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, listener, progressDialog, false);
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, R.string.nc_utils_feedback, listener, progressDialog, false);
     }
 
-    public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
+    public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
 
         String appName = "NcAppFeedback App";
         try {
@@ -46,17 +46,17 @@ public class NcAppFeedback {
         }
         final String subject = appName;
 
-        feedback(context, sparkPostApiKey, subject, senderEmailAddress, senderName, recipientEmailAddress, listener, progressDialog, enableNormalEmailAsBackup);
+        feedback(context, sparkPostApiKey, subject, senderEmailAddress, senderName, recipientEmailAddress, selectionDialogTitleResourceId, listener, progressDialog, enableNormalEmailAsBackup);
     }
 
-    public static void feedback(final Context context, final String sparkPostApiKey, final String subject, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, final boolean enableNormalEmailAsBackup) {
+    public static void feedback(final Context context, final String sparkPostApiKey, final String subject, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, final boolean enableNormalEmailAsBackup) {
         progressDialog.setTitle(R.string.ncutils_loading);
         progressDialog.setMessage(context.getString(R.string.ncutils_please_wait));
 
         ArrayList<String> selections = new ArrayList<>();
         selections.add(context.getString(R.string.nc_utils_feedback_anonymously));
         selections.add(context.getString(R.string.nc_utils_feedback_by_email));
-        AlertDialogUtil.showAlertDialogWithSelections(context, selections, new DialogInterface.OnClickListener() {
+        AlertDialogUtil.showAlertDialogWithSelections(context, selectionDialogTitleResourceId, selections, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
