@@ -13,8 +13,6 @@ import android.util.Log;
 import android.util.Patterns;
 import android.widget.Toast;
 
-import com.afollestad.materialdialogs.DialogAction;
-import com.afollestad.materialdialogs.MaterialDialog;
 import com.noelchew.sparkpostutil.library.EmailListener;
 import com.noelchew.sparkpostutil.library.SparkPostEmailUtil;
 import com.noelchew.sparkpostutil.library.SparkPostRecipient;
