@@ -3,6 +3,10 @@
 
 Let user feedback using phone email client or anonymously using SparkPost email service.
 
+[View example](https://github.com/NoelChew/NcAppFeedback/blob/master/app/src/main/java/com/noelchew/ncappfeedback/MainActivity.java)
+
+[More info on setting up SparkPost](https://github.com/NoelChew/android-sparkpost/blob/master/README.md#account-setup)
+
 # Integration
 This library is hosted by jitpack.io.
 
