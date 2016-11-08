@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener btnSendOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if (progressDialog != null && !progressDialog.isShowing()) {
-                progressDialog.show();
-            }
+//            if (progressDialog != null && !progressDialog.isShowing()) {
+//                progressDialog.show();
+//            }
 
             NcAppFeedback.feedback(context, etSparkPostApiKey.getText().toString(), etSenderEmail.getText().toString(), etSenderName.getText().toString(), etRecipientEmail.getText().toString(), R.string.nc_utils_feedback, new NcAppFeedbackListener() {
                 @Override
