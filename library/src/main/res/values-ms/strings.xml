@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">library</string>
+
+    <!-- feedback -->
+    <string name="nc_utils_feedback">Maklum Balas</string>
+    <string name="nc_utils_feedback_anonymously">Maklum Balas tanpa Nama</string>
+    <string name="nc_utils_feedback_by_email">Maklum Balas dengan Emel</string>
+    <string name="nc_utils_feedback_confirm">Pasti</string>
+    <string name="nc_utils_feedback_cancel">Batal</string>
+    <string name="nc_utils_feedback_ok">OK</string>
+    <string name="nc_utils_feedback_send">Hantar</string>
+    <string name="nc_utils_feedback_confirm_send">Mengesahkan hantaran?</string>
+    <string name="nc_utils_feedback_loading">Loading</string>
+    <string name="nc_utils_feedback_please_wait">Sila tunggu...</string>
+    <string name="nc_utils_feedback_for_bad_rating">Terima kasih atas pengadaran anda. Maklum balas anda akan membantu kami memperbaiki aplikasi.</string>
+
+    <!-- feedback anonymously-->
+    <string name="nc_utils_feedback_message">Sila memberi maklum balas yang jujur.</string>
+    <string name="nc_utils_insert_feedback">Taip maklum balas sini</string>
+    <string name="nc_utils_feedback_send_success">Terima kasih atas maklum balas anda.</string>
+    <string name="nc_utils_feedback_invalid_feedback">Maklum balas yang tidak sah :(</string>
+    <string name="nc_utils_feedback_input_email_address_title">Emel anda (tidak wajib)</string>
+    <string name="nc_utils_feedback_input_email_address_message">Biar kami menghubungi anda melalui emel:</string>
+    <string name="nc_utils_feedback_hint_email_address">Alamat emel anda</string>
+
+    <!-- feedback email -->
+    <string name="nc_utils_feedback_email_subject">App - Maklum Balas</string>
+    <string name="nc_utils_feedback_email_message">Hello,\n\n</string>
+</resources>
