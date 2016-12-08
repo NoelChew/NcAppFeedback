@@ -21,6 +21,9 @@ allprojects {
 ```
 
 Application level gradle:
+
+[![Release](https://jitpack.io/v/noelchew/NcAppFeedback.svg)](https://jitpack.io/#noelchew/NcAppFeedback)
+
 ```
 dependencies {
     compile 'com.github.noelchew:NcAppFeedback:x.y.z'
