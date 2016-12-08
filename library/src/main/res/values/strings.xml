@@ -19,8 +19,8 @@
     <string name="nc_utils_insert_feedback">Type in your feedback</string>
     <string name="nc_utils_feedback_send_success">Thank you for your feedback.</string>
     <string name="nc_utils_feedback_invalid_feedback">Invalid feedback :(</string>
-    <string name="nc_utils_feedback_input_email_address_title">Your email (Optional)</string>
-    <string name="nc_utils_feedback_input_email_address_message">Let us reach out to you by filling up your email address below:</string>
+    <string name="nc_utils_feedback_input_email_address_title">Your email</string>
+    <string name="nc_utils_feedback_input_email_address_message">Fill up your email address so that we can contact you:</string>
     <string name="nc_utils_feedback_hint_email_address">Your email address</string>
 
     <!-- feedback email -->
