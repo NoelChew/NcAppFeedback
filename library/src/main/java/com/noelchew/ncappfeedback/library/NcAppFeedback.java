@@ -31,20 +31,28 @@ public class NcAppFeedback {
     private static final String TAG = "NcAppFeedback";
 
     public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog) {
-        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, R.string.nc_utils_feedback, listener, progressDialog, false);
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "", R.string.nc_utils_feedback, listener, progressDialog, false);
     }
 
-    // this is used when user has submitted a bad rating
-    public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog) {
-        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, false);
-    }
-
-    // this is used when user has submitted a bad rating
-    public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
-        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, enableNormalEmailAsBackup);
+    public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "", R.string.nc_utils_feedback, listener, progressDialog, enableNormalEmailAsBackup);
     }
 
     public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "", selectionDialogTitleResourceId, listener, progressDialog, enableNormalEmailAsBackup);
+    }
+
+    // this is used when user has submitted a bad rating
+    public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final int rating, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog) {
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "User has given a rating of " + rating, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, false);
+    }
+
+    // this is used when user has submitted a bad rating
+    public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final int rating, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "User has given a rating of " + rating, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, enableNormalEmailAsBackup);
+    }
+
+    public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final String additionalDetails, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
 
         String appName = "NcAppFeedback App";
         try {
@@ -57,10 +65,10 @@ public class NcAppFeedback {
         }
         final String subject = appName;
 
-        feedback(context, sparkPostApiKey, subject, senderEmailAddress, senderName, recipientEmailAddress, selectionDialogTitleResourceId, listener, progressDialog, enableNormalEmailAsBackup);
+        feedback(context, sparkPostApiKey, subject, senderEmailAddress, senderName, recipientEmailAddress, additionalDetails, selectionDialogTitleResourceId, listener, progressDialog, enableNormalEmailAsBackup);
     }
 
-    public static void feedback(final Context context, final String sparkPostApiKey, final String subject, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, final boolean enableNormalEmailAsBackup) {
+    public static void feedback(final Context context, final String sparkPostApiKey, final String subject, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final String additionalDetails, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, final boolean enableNormalEmailAsBackup) {
         progressDialog.setTitle(R.string.ncutils_loading);
         progressDialog.setMessage(context.getString(R.string.ncutils_please_wait));
 
@@ -75,7 +83,7 @@ public class NcAppFeedback {
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which) {
                             case 0:
-                                sendFeedbackAnonymously(context, sparkPostApiKey, subject, senderEmailAddress, senderName, recipientEmailAddress, listener, progressDialog, enableNormalEmailAsBackup);
+                                sendFeedbackAnonymously(context, sparkPostApiKey, subject, senderEmailAddress, senderName, recipientEmailAddress, additionalDetails, listener, progressDialog, enableNormalEmailAsBackup);
                                 break;
 
                             case 1:
@@ -102,7 +110,7 @@ public class NcAppFeedback {
 //        });
     }
 
-    public static void sendFeedbackAnonymously(final Context context, final String sparkPostApiKey, final String subject, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, final boolean enableNormalEmailAsBackup) {
+    public static void sendFeedbackAnonymously(final Context context, final String sparkPostApiKey, final String subject, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final String additionalDetails, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, final boolean enableNormalEmailAsBackup) {
         final View dialogView = View.inflate(context, R.layout.dialog_input, null);
         ((EditText) dialogView.findViewById(R.id.edit_text)).setHint(R.string.nc_utils_insert_feedback);
 
@@ -181,7 +189,9 @@ public class NcAppFeedback {
                                             SparkPostEmailUtil.sendEmail(context,
                                                     sparkPostApiKey,
                                                     subject,
-                                                    feedbackContent + "\nUser Email: " + userEmail.trim(),
+                                                    feedbackContent +
+                                                            "\nUser Email: " + userEmail.trim() +
+                                                            "\nAdditional Details: " + additionalDetails.trim(),
                                                     new SparkPostSender(senderEmailAddress, senderName),
                                                     new SparkPostRecipient(recipientEmailAddress),
                                                     emailListener);
