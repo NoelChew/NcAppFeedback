@@ -18,7 +18,7 @@
     <string name="nc_utils_insert_feedback">在此输入您的意见</string>
     <string name="nc_utils_feedback_send_success">感谢您的反馈意见</string>
     <string name="nc_utils_feedback_invalid_feedback">无效的反馈:(</string>
-    <string name="nc_utils_feedback_input_email_address_title">您的电子邮件（可选留空）</string>
+    <string name="nc_utils_feedback_input_email_address_title">您的电子邮件</string>
     <string name="nc_utils_feedback_input_email_address_message">让我们与您联系：</string>
     <string name="nc_utils_feedback_hint_email_address">您的电子邮件</string>
 

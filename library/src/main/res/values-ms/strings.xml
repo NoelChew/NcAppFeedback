@@ -19,7 +19,7 @@
     <string name="nc_utils_insert_feedback">Taip maklum balas sini</string>
     <string name="nc_utils_feedback_send_success">Terima kasih atas maklum balas anda.</string>
     <string name="nc_utils_feedback_invalid_feedback">Maklum balas yang tidak sah :(</string>
-    <string name="nc_utils_feedback_input_email_address_title">Emel anda (tidak wajib)</string>
+    <string name="nc_utils_feedback_input_email_address_title">Emel anda</string>
     <string name="nc_utils_feedback_input_email_address_message">Biar kami menghubungi anda melalui emel:</string>
     <string name="nc_utils_feedback_hint_email_address">Alamat emel anda</string>
 

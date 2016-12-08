@@ -49,7 +49,7 @@ public class NcAppFeedback {
 
     // this is used when user has submitted a bad rating
     public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final int rating, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
-        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "User has given a rating of " + rating, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, enableNormalEmailAsBackup);
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "Rated " + rating + "/5", R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, enableNormalEmailAsBackup);
     }
 
     public static void feedback(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final String additionalDetails, int selectionDialogTitleResourceId, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog, boolean enableNormalEmailAsBackup) {
@@ -190,8 +190,8 @@ public class NcAppFeedback {
                                                     sparkPostApiKey,
                                                     subject,
                                                     feedbackContent +
-                                                            "\nUser Email: " + userEmail.trim() +
-                                                            "\nAdditional Details: " + additionalDetails.trim(),
+                                                            "\n\nUser Email: " + userEmail.trim() +
+                                                            "\n\n" + additionalDetails.trim(),
                                                     new SparkPostSender(senderEmailAddress, senderName),
                                                     new SparkPostRecipient(recipientEmailAddress),
                                                     emailListener);
