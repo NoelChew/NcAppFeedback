@@ -44,7 +44,7 @@ public class NcAppFeedback {
 
     // this is used when user has submitted a bad rating
     public static void feedbackWithBadRating(final Context context, final String sparkPostApiKey, final String senderEmailAddress, final String senderName, final String recipientEmailAddress, final int rating, @Nullable final NcAppFeedbackListener listener, final ProgressDialog progressDialog) {
-        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "User has given a rating of " + rating, R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, false);
+        feedback(context, sparkPostApiKey, senderEmailAddress, senderName, recipientEmailAddress, "Rated " + rating + "/5", R.string.nc_utils_feedback_for_bad_rating, listener, progressDialog, false);
     }
 
     // this is used when user has submitted a bad rating
