@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">library</string>
+    <string name="app_name" translatable="false">library</string>
 
     <!-- feedback -->
     <string name="nc_utils_feedback">Feedback</string>

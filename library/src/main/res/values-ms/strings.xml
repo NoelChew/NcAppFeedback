@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">library</string>
-
     <!-- feedback -->
     <string name="nc_utils_feedback">Maklum Balas</string>
     <string name="nc_utils_feedback_anonymously">Maklum Balas tanpa Nama</string>
