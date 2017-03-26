@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- feedback -->
+<<<<<<< HEAD
     <string name="nc_utils_feedback">Realimentación</string>
     <string name="nc_utils_feedback_anonymously">Comentarios anónimamente</string>
     <string name="nc_utils_feedback_by_email">Comentarios por correo electrónico</string>
@@ -25,4 +26,30 @@
     <!-- feedback email -->
     <string name="nc_utils_feedback_email_subject">Aplicación - Comentarios</string>
     <string name="nc_utils_feedback_email_message">Hola\u002C</string>
+=======
+    <string name="nc_utils_feedback">"Opinione"</string>
+    <string name="nc_utils_feedback_anonymously">"Retroalimentación de Forma Anónima"</string>
+    <string name="nc_utils_feedback_by_email">"Votación por Correo Electrónico"</string>
+    <string name="nc_utils_feedback_confirm">"Confirmar"</string>
+    <string name="nc_utils_feedback_cancel">"Cancelar"</string>
+    <string name="nc_utils_feedback_ok">"OK"</string>
+    <string name="nc_utils_feedback_send">"Enviar"</string>
+    <string name="nc_utils_feedback_confirm_send">"Confirmar enviar?"</string>
+    <string name="nc_utils_feedback_loading">"Cargando"</string>
+    <string name="nc_utils_feedback_please_wait">"Por favor, espere..."</string>
+    <string name="nc_utils_feedback_for_bad_rating">"Gracias por tu valoración. Su opinion puede ayudar a mejorar la calidad."</string>
+
+    <!-- feedback anonymously-->
+    <string name="nc_utils_feedback_message">"Por favor dénos su opinión honesta."</string>
+    <string name="nc_utils_insert_feedback">"Escriba sus comentarios"</string>
+    <string name="nc_utils_feedback_send_success">"Gracias por sus comentarios."</string>
+    <string name="nc_utils_feedback_invalid_feedback">"Retroalimentación inválida :("</string>
+    <string name="nc_utils_feedback_input_email_address_title">"Tu email"</string>
+    <string name="nc_utils_feedback_input_email_address_message">"Llene su dirección de correo electrónico para que podamos contactar con usted:"</string>
+    <string name="nc_utils_feedback_hint_email_address">"Tu correo electrónico"</string>
+
+    <!-- feedback email -->
+    <string name="nc_utils_feedback_email_subject">"App - Comentarios"</string>
+    <string name="nc_utils_feedback_email_message">"Hola, \ n \ n"</string>
+>>>>>>> master
 </resources>
