@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">library</string>
-
     <!-- feedback -->
     <string name="nc_utils_feedback">Maklum Balas</string>
     <string name="nc_utils_feedback_anonymously">Maklum Balas tanpa Nama</string>
@@ -25,5 +23,5 @@
 
     <!-- feedback email -->
     <string name="nc_utils_feedback_email_subject">App - Maklum Balas</string>
-    <string name="nc_utils_feedback_email_message">Hello,\n\n</string>
+    <string name="nc_utils_feedback_email_message">Salam\u002C</string>
 </resources>

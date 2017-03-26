@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">library</string>
+    <string name="app_name" translatable="false">library</string>
 
     <!-- feedback -->
     <string name="nc_utils_feedback">Feedback</string>
@@ -25,5 +25,5 @@
 
     <!-- feedback email -->
     <string name="nc_utils_feedback_email_subject">App - Feedback</string>
-    <string name="nc_utils_feedback_email_message">Hello,\n\n</string>
+    <string name="nc_utils_feedback_email_message">Hello\u002C</string>
 </resources>
