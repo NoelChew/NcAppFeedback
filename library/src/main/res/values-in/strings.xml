@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nc_utils_feedback">Pendapat</string>
+    <string name="nc_utils_feedback_anonymously">Pendapat Anonim</string>
+    <string name="nc_utils_feedback_by_email">Memberi Pendapat melalui Email</string>
+    <string name="nc_utils_feedback_cancel">Membatalkan</string>
+    <string name="nc_utils_feedback_confirm">Memastikan</string>
+    <string name="nc_utils_feedback_confirm_send">Konfirmasi kirim?</string>
+    <string name="nc_utils_feedback_email_message">Halo\u002C</string>
+    <string name="nc_utils_feedback_email_subject">App - Pendapat</string>
+    <string name="nc_utils_feedback_for_bad_rating">Terima kasih atas penilaian Anda. Tanggapan Anda dapat membantu kami meningkatkan.</string>
+    <string name="nc_utils_feedback_hint_email_address">Alamat email anda</string>
+    <string name="nc_utils_feedback_input_email_address_message">Mengisi alamat email Anda sehingga kami dapat menghubungi Anda:</string>
+    <string name="nc_utils_feedback_input_email_address_title">Email mu</string>
+    <string name="nc_utils_feedback_invalid_feedback">Pendapat tidak valid :(</string>
+    <string name="nc_utils_feedback_loading">Loading</string>
+    <string name="nc_utils_feedback_message">Tolong beri kami pendapat yang jujur .</string>
+    <string name="nc_utils_feedback_ok">baik</string>
+    <string name="nc_utils_feedback_please_wait">Mohon tunggu...</string>
+    <string name="nc_utils_feedback_send">Kirim</string>
+    <string name="nc_utils_feedback_send_success">Terima kasih atas pendapat anda.</string>
+    <string name="nc_utils_insert_feedback">Ketik pendapat anda</string>
+</resources>

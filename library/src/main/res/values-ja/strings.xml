@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nc_utils_feedback">フィードバック</string>
+    <string name="nc_utils_feedback_anonymously">匿名のフィードバック</string>
+    <string name="nc_utils_feedback_by_email">メールによるフィードバック</string>
+    <string name="nc_utils_feedback_cancel">キャンセル</string>
+    <string name="nc_utils_feedback_confirm">確認します</string>
+    <string name="nc_utils_feedback_confirm_send">送信の確認？</string>
+    <string name="nc_utils_feedback_email_message">こんにちは\u002C</string>
+    <string name="nc_utils_feedback_email_subject">アプリ - フィードバック</string>
+    <string name="nc_utils_feedback_for_bad_rating">あなたの評価をいただき、ありがとうございます。ご意見は向上させることができます。</string>
+    <string name="nc_utils_feedback_hint_email_address">メールアドレス</string>
+    <string name="nc_utils_feedback_input_email_address_message">私たちはあなたに連絡できるようにメールアドレスを入力します。</string>
+    <string name="nc_utils_feedback_input_email_address_title">あなたのメールアドレス</string>
+    <string name="nc_utils_feedback_invalid_feedback">無効なフィードバック:(</string>
+    <string name="nc_utils_feedback_loading">ローディング</string>
+    <string name="nc_utils_feedback_message">私達にあなたの正直なフィードバックをお願いします。</string>
+    <string name="nc_utils_feedback_ok">はい</string>
+    <string name="nc_utils_feedback_please_wait">お待ちください...</string>
+    <string name="nc_utils_feedback_send">送信</string>
+    <string name="nc_utils_feedback_send_success">ご意見ありがとうございます。</string>
+    <string name="nc_utils_insert_feedback">あなたのフィードバックを入力</string>
+</resources>

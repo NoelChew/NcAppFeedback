@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nc_utils_feedback">Retour d\'information</string>
+    <string name="nc_utils_feedback_anonymously">Commentaires Anonymously</string>
+    <string name="nc_utils_feedback_by_email">Commentaires par e-mail</string>
+    <string name="nc_utils_feedback_cancel">Annuler</string>
+    <string name="nc_utils_feedback_confirm">Confirmer</string>
+    <string name="nc_utils_feedback_confirm_send">Confirmer envoyer?</string>
+    <string name="nc_utils_feedback_email_message">Bonjour\u002C</string>
+    <string name="nc_utils_feedback_email_subject">App - Commentaires</string>
+    <string name="nc_utils_feedback_for_bad_rating">Merci pour votre évaluation. Vos commentaires peuvent nous aider à améliorer.</string>
+    <string name="nc_utils_feedback_hint_email_address">Votre adresse email</string>
+    <string name="nc_utils_feedback_input_email_address_message">Remplissez votre adresse e-mail afin que nous puissions vous contacter:</string>
+    <string name="nc_utils_feedback_input_email_address_title">votre e-mail</string>
+    <string name="nc_utils_feedback_invalid_feedback">modifier invalide :(</string>
+    <string name="nc_utils_feedback_loading">Loading</string>
+    <string name="nc_utils_feedback_message">S\'il vous plaît nous donner vos commentaires honnêtes.</string>
+    <string name="nc_utils_feedback_ok">D\'accord</string>
+    <string name="nc_utils_feedback_please_wait">S\'il vous plaît, attendez...</string>
+    <string name="nc_utils_feedback_send">Envoyer</string>
+    <string name="nc_utils_feedback_send_success">Merci pour votre avis.</string>
+    <string name="nc_utils_insert_feedback">Tapez vos commentaires</string>
+</resources>

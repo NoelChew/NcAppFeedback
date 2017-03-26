@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feedback -->
+    <string name="nc_utils_feedback">피드백</string>
+    <string name="nc_utils_feedback_anonymously">피드백 익명</string>
+    <string name="nc_utils_feedback_by_email">이메일로 피드백</string>
+    <string name="nc_utils_feedback_confirm">확인</string>
+    <string name="nc_utils_feedback_cancel">취소</string>
+    <string name="nc_utils_feedback_ok">승인</string>
+    <string name="nc_utils_feedback_send">보내다</string>
+    <string name="nc_utils_feedback_confirm_send">전송 확인?</string>
+    <string name="nc_utils_feedback_loading">로드</string>
+    <string name="nc_utils_feedback_please_wait">잠시 기다려주십시오 ...</string>
+    <string name="nc_utils_feedback_for_bad_rating">귀하의 평가에 감사드립니다. 귀하의 의견은 우리가 향상시킬 수 있습니다.</string>
+
+    <!-- feedback anonymously-->
+    <string name="nc_utils_feedback_message">우리에게 당신의 솔직한 피드백을 제공하시기 바랍니다.</string>
+    <string name="nc_utils_insert_feedback">귀하의 의견을 입력</string>
+    <string name="nc_utils_feedback_send_success">의견을 보내 주셔서 감사합니다.</string>
+    <string name="nc_utils_feedback_invalid_feedback">잘못된 피드백 :(</string>
+    <string name="nc_utils_feedback_input_email_address_title">귀하의 이메일</string>
+    <string name="nc_utils_feedback_input_email_address_message">우리는 당신에게 연락 할 수 있도록 이메일 주소를 입력합니다:</string>
+    <string name="nc_utils_feedback_hint_email_address">귀하의 이메일 주소</string>
+
+    <!-- feedback email -->
+    <string name="nc_utils_feedback_email_subject">앱 - 피드백</string>
+    <string name="nc_utils_feedback_email_message">안녕하세요\u002C</string>
+</resources>
