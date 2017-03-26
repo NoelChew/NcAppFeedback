@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nc_utils_feedback">Feedback</string>
+    <string name="nc_utils_feedback_anonymously">Feedback anonymt</string>
+    <string name="nc_utils_feedback_by_email">Feedback via email</string>
+    <string name="nc_utils_feedback_cancel">Afbestille</string>
+    <string name="nc_utils_feedback_confirm">Bekræfte</string>
+    <string name="nc_utils_feedback_confirm_send">Bekræft sende?</string>
+    <string name="nc_utils_feedback_email_message">Hej</string>
+    <string name="nc_utils_feedback_email_subject">App - Feedback</string>
+    <string name="nc_utils_feedback_for_bad_rating">Tak for din bedømmelse. Din feedback, kan hjælpe os med at forbedre.</string>
+    <string name="nc_utils_feedback_hint_email_address">Din email adresse</string>
+    <string name="nc_utils_feedback_input_email_address_message">Fyld din e-mail-adresse, så vi kan kontakte dig:</string>
+    <string name="nc_utils_feedback_input_email_address_title">Din email</string>
+    <string name="nc_utils_feedback_invalid_feedback">Ugyldig tilbagemelding :(</string>
+    <string name="nc_utils_feedback_loading">Indlæser</string>
+    <string name="nc_utils_feedback_message">Giv os din ærlige feedback.</string>
+    <string name="nc_utils_feedback_ok">Okay</string>
+    <string name="nc_utils_feedback_please_wait">Vent venligst...</string>
+    <string name="nc_utils_feedback_send">Sende</string>
+    <string name="nc_utils_feedback_send_success">Tak for din feedback.</string>
+    <string name="nc_utils_insert_feedback">Indtast din tilbagemelding</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nc_utils_feedback">terugkoppeling</string>
+    <string name="nc_utils_feedback_anonymously">Terugkoppeling anoniem</string>
+    <string name="nc_utils_feedback_by_email">Feedback via e-mail</string>
+    <string name="nc_utils_feedback_cancel">Annuleer</string>
+    <string name="nc_utils_feedback_confirm">Bevestigen</string>
+    <string name="nc_utils_feedback_confirm_send">Bevestigen sturen?</string>
+    <string name="nc_utils_feedback_email_message">Hallo</string>
+    <string name="nc_utils_feedback_email_subject">App - Feedback</string>
+    <string name="nc_utils_feedback_for_bad_rating">Dank u voor uw waardering. Uw feedback kan ons helpen verbeteren.</string>
+    <string name="nc_utils_feedback_hint_email_address">jouw e-mailadres</string>
+    <string name="nc_utils_feedback_input_email_address_message">Vul uw e-mailadres zodat wij contact met u op:</string>
+    <string name="nc_utils_feedback_input_email_address_title">Jouw email</string>
+    <string name="nc_utils_feedback_invalid_feedback">Ongeldige feedback :(</string>
+    <string name="nc_utils_feedback_loading">het laden</string>
+    <string name="nc_utils_feedback_message">Geef ons uw eerlijke feedback.</string>
+    <string name="nc_utils_feedback_ok">OK</string>
+    <string name="nc_utils_feedback_please_wait">Even geduld aub...</string>
+    <string name="nc_utils_feedback_send">sturen</string>
+    <string name="nc_utils_feedback_send_success">Hartelijk dank voor uw feedback.</string>
+    <string name="nc_utils_insert_feedback">Typ in uw feedback</string>
+</resources>
