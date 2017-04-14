@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nc_utils_feedback">terugkoppeling</string>
+    <string name="nc_utils_feedback">Suggestie</string>
     <string name="nc_utils_feedback_anonymously">Terugkoppeling anoniem</string>
     <string name="nc_utils_feedback_by_email">Feedback via e-mail</string>
     <string name="nc_utils_feedback_cancel">Annuleer</string>

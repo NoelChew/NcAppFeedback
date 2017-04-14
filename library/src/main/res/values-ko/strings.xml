@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- feedback -->
-    <string name="nc_utils_feedback">피드백</string>
+    <string name="nc_utils_feedback">암시</string>
     <string name="nc_utils_feedback_anonymously">피드백 익명</string>
     <string name="nc_utils_feedback_by_email">이메일로 피드백</string>
     <string name="nc_utils_feedback_confirm">확인</string>

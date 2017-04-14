@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nc_utils_feedback">Feedback</string>
+    <string name="nc_utils_feedback">Forslag</string>
     <string name="nc_utils_feedback_anonymously">Feedback anonymt</string>
     <string name="nc_utils_feedback_by_email">Feedback via email</string>
     <string name="nc_utils_feedback_cancel">Afbestille</string>
