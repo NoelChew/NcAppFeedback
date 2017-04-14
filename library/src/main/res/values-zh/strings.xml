@@ -1,7 +1,7 @@
 <resources>
 
     <!-- feedback -->
-    <string name="nc_utils_feedback">反馈意见</string>
+    <string name="nc_utils_feedback">反馈</string>
     <string name="nc_utils_feedback_anonymously">匿名反馈意见</string>
     <string name="nc_utils_feedback_by_email">邮件反馈意见</string>
     <string name="nc_utils_feedback_confirm">确定</string>

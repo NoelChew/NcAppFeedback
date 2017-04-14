@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nc_utils_feedback">フィードバック</string>
+    <string name="nc_utils_feedback">評論</string>
     <string name="nc_utils_feedback_anonymously">匿名のフィードバック</string>
     <string name="nc_utils_feedback_by_email">メールによるフィードバック</string>
     <string name="nc_utils_feedback_cancel">キャンセル</string>

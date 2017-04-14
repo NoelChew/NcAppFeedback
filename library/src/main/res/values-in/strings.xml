@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nc_utils_feedback">Pendapat</string>
+    <string name="nc_utils_feedback">Ulasan</string>
     <string name="nc_utils_feedback_anonymously">Pendapat Anonim</string>
     <string name="nc_utils_feedback_by_email">Memberi Pendapat melalui Email</string>
     <string name="nc_utils_feedback_cancel">Membatalkan</string>
