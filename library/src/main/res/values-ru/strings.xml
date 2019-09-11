@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="nc_utils_feedback">Обратная связь</string>
-    <string name="nc_utils_feedback_anonymously">Обратная связь анонимно</string>
+    <string name="nc_utils_feedback_anonymously">Анонимная обратная связь</string>
     <string name="nc_utils_feedback_by_email">Обратная связь по электронной почте</string>
     <string name="nc_utils_feedback_cancel">Отмена</string>
-    <string name="nc_utils_feedback_confirm">подтвердить</string>
-    <string name="nc_utils_feedback_confirm_send">Подтверждение отправки?</string>
+    <string name="nc_utils_feedback_confirm">Подтвердить</string>
+    <string name="nc_utils_feedback_confirm_send">Подтверждаете отправку?</string>
     <string name="nc_utils_feedback_email_message">Здравствуйте\u002C</string>
     <string name="nc_utils_feedback_email_subject">App - Обратная связь</string>
-    <string name="nc_utils_feedback_for_bad_rating">Спасибо за вашу оценку. Ваш отзыв поможет нам улучшить.</string>
+    <string name="nc_utils_feedback_for_bad_rating">Спасибо за оценку. Ваш отзыв поможет нам стать лучше.</string>
     <string name="nc_utils_feedback_hint_email_address">Ваш адрес электронной почты</string>
-    <string name="nc_utils_feedback_input_email_address_message">Заполните ваш адрес электронной почты\u002C чтобы мы могли связаться с вами:</string>
-    <string name="nc_utils_feedback_input_email_address_title">Ваш адрес электронной почты</string>
-    <string name="nc_utils_feedback_invalid_feedback">Неверная обратная связь :(</string>
-    <string name="nc_utils_feedback_loading">загрузка</string>
-    <string name="nc_utils_feedback_message">Пожалуйста\u002C дайте нам ваше честное мнение.</string>
+    <string name="nc_utils_feedback_input_email_address_message">Заполните адрес электронной почты, чтобы мы могли связаться с вами:</string>
+    <string name="nc_utils_feedback_input_email_address_title">Адрес электронной почты</string>
+    <string name="nc_utils_feedback_invalid_feedback">Ошибка при обратной связи :(</string>
+    <string name="nc_utils_feedback_loading">Загрузка</string>
+    <string name="nc_utils_feedback_message">Пожалуйста, напишите нам ваш честный отзыв:</string>
     <string name="nc_utils_feedback_ok">ОК</string>
-    <string name="nc_utils_feedback_please_wait">Пожалуйста\u002C подождите...</string>
-    <string name="nc_utils_feedback_send">послать</string>
-    <string name="nc_utils_feedback_send_success">Спасибо за ваш отзыв.</string>
-    <string name="nc_utils_insert_feedback">Введите свой отзыв</string>
+    <string name="nc_utils_feedback_please_wait">Пожалуйста, подождите...</string>
+    <string name="nc_utils_feedback_send">Отправить</string>
+    <string name="nc_utils_feedback_send_success">Спасибо за отзыв.</string>
+    <string name="nc_utils_insert_feedback">Напишите свой отзыв</string>
 </resources>
