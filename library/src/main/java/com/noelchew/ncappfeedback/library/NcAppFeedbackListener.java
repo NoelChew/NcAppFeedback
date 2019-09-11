@@ -6,7 +6,7 @@ package com.noelchew.ncappfeedback.library;
 public interface NcAppFeedbackListener {
     void onFeedbackAnonymouslySuccess();
     void onFeedbackNonAnonymouslySuccess(String senderEmail);
-    void onFeedbackAnonymouslyError(String error);
+    void onFeedbackAnonymouslyError(Throwable e);
     void onFeedbackViaPhoneEmailClient();
-    void onError(String error);
+    void onError(Throwable e);
 }
