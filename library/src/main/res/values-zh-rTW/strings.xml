@@ -1,0 +1,28 @@
+<resources>
+    <!-- feedback -->
+    <string name="nc_utils_feedback">反饋</string>
+    <string name="nc_utils_feedback_anonymously">匿名反饋意見</string>
+    <string name="nc_utils_feedback_by_email">郵件反饋意見</string>
+    <string name="nc_utils_feedback_confirm">確定</string>
+    <string name="nc_utils_feedback_cancel">取消</string>
+    <string name="nc_utils_feedback_ok">OK</string>
+    <string name="nc_utils_feedback_send">發送</string>
+    <string name="nc_utils_feedback_confirm_send">確定發送?</string>
+    <string name="nc_utils_feedback_loading">發送中</string>
+    <string name="nc_utils_feedback_please_wait">請稍等...</string>
+    <string name="nc_utils_feedback_for_bad_rating">謝謝您的評價。您的反饋能幫助我們進步。 </string>
+
+    <!-- feedback anonymously-->
+    <string name="nc_utils_feedback_message">如果您有任何意見I，請與我們分享。 </string>
+    <string name="nc_utils_insert_feedback">在此輸入您的意見</string>
+    <string name="nc_utils_feedback_send_success">感謝您的反饋意見</string>
+    <string name="nc_utils_feedback_invalid_feedback">無效的反饋:(</string>
+    <string name="nc_utils_feedback_input_email_address_title">您的電子郵件</string>
+    <string name="nc_utils_feedback_input_email_address_message">讓我們與您聯繫：</string>
+    <string name="nc_utils_feedback_hint_email_address">您的電子郵件</string>
+
+    <!-- feedback email -->
+    <string name="nc_utils_feedback_email_subject">App - Feedback</string>
+    <string name="nc_utils_feedback_email_message">您好\u002C</string>
+
+</resources>

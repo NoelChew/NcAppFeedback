@@ -62,7 +62,7 @@ public class NcAppFeedback {
         } catch (PackageManager.NameNotFoundException e) {
             //Handle exception
             e.printStackTrace();
-            listener.onError(e.getMessage());
+            listener.onError(e);
         }
         final String subject = appName;
 
@@ -167,17 +167,13 @@ public class NcAppFeedback {
                                                 }
 
                                                 @Override
-                                                public void onError(String errorMessage) {
+                                                public void onError(Throwable e) {
                                                     if (progressDialog != null && progressDialog.isShowing()) {
                                                         progressDialog.dismiss();
                                                     }
-                                                    if (!TextUtils.isEmpty(errorMessage)) {
-                                                        listener.onFeedbackAnonymouslyError(errorMessage);
-                                                    } else {
-                                                        listener.onFeedbackAnonymouslyError("");
-                                                    }
+                                                    listener.onFeedbackAnonymouslyError(e);
 
-                                                    Log.e(TAG, "Error occurred when sending email using SparkPost. Error: " + errorMessage);
+                                                    Log.e(TAG, "Error occurred when sending email using SparkPost. Error: " + e);
                                                     if (enableNormalEmailAsBackup) {
                                                         Log.d(TAG, "Use normal email as backup is ENABLED.");
                                                         sendFeedbackByEmail(context, subject, feedbackContent, recipientEmailAddress, null);
