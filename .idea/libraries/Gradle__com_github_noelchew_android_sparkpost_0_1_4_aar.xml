@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.noelchew:android-sparkpost:0.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93e6c8530567f138e76c27d7e8440928/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93e6c8530567f138e76c27d7e8440928/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.noelchew/android-sparkpost/0.1.4/9d41e60d7b963fdf2ac39aa929bbc77eae8cbf/android-sparkpost-0.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
