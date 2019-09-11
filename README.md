@@ -27,7 +27,7 @@ Application level gradle:
 ```
 dependencies {
     implementation 'com.github.noelchew:NcAppFeedback:x.y.z'
-    implementation 'com.github.noelchew:android-sparkpost:0.1.4'
+    implementation 'com.github.noelchew:android-sparkpost:0.1.5'
     implementation 'com.koushikdutta.ion:ion:2.+'
 }
 ```
