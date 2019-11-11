@@ -142,3 +142,5 @@ projectFilesBackup/.idea/workspace.xml
 .idea/misc.xml
 
 .idea/modules.xml
+app/src/main/res/values-en/api_keys.xml
+app/src/main/res/values-en/api_keys.xml
