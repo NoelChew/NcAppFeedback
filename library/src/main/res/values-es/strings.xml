@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- feedback -->
-    <string name="nc_utils_feedback">Comentarios</string>
-    <string name="nc_utils_feedback_anonymously">Comentarios anónimamente</string>
-    <string name="nc_utils_feedback_by_email">Comentarios por correo electrónico</string>
+    <string name="nc_utils_feedback">Enviar comentarios</string>
+    <string name="nc_utils_feedback_anonymously">Comentar anónimamente</string>
+    <string name="nc_utils_feedback_by_email">Comentar por correo electrónico</string>
     <string name="nc_utils_feedback_confirm">Confirmar</string>
     <string name="nc_utils_feedback_cancel">Cancelar</string>
     <string name="nc_utils_feedback_ok">DE ACUERDO</string>
     <string name="nc_utils_feedback_send">Enviar</string>
-    <string name="nc_utils_feedback_confirm_send">Confirmar enviar?</string>
-    <string name="nc_utils_feedback_loading">Loading</string>
-    <string name="nc_utils_feedback_please_wait">Por favor espera...</string>
+    <string name="nc_utils_feedback_confirm_send">¿Confirmar el envío?</string>
+    <string name="nc_utils_feedback_loading">Cargando</string>
+    <string name="nc_utils_feedback_please_wait">Por favor, espere...</string>
     <string name="nc_utils_feedback_for_bad_rating">Gracias por tu valoración. Su regeneración puede ayudar a mejorar la calidad.</string>
 
     <!-- feedback anonymously-->
-    <string name="nc_utils_feedback_message">Por favor\u002C dénos su opinión honesta.</string>
+    <string name="nc_utils_feedback_message">Por favor\u002C denos su opinión honesta.</string>
     <string name="nc_utils_insert_feedback">Escriba sus comentarios</string>
-    <string name="nc_utils_feedback_send_success">Gracias por tus comentarios.</string>
-    <string name="nc_utils_feedback_invalid_feedback">retroalimentación inválida :(</string>
-    <string name="nc_utils_feedback_input_email_address_title">Tu correo electrónico</string>
-    <string name="nc_utils_feedback_input_email_address_message">Llene su dirección de correo electrónico para que podamos contactar con usted:</string>
-    <string name="nc_utils_feedback_hint_email_address">Tu correo electrónico</string>
+    <string name="nc_utils_feedback_send_success">Gracias por sus comentarios.</string>
+    <string name="nc_utils_feedback_invalid_feedback">Comentario no válido :(</string>
+    <string name="nc_utils_feedback_input_email_address_title">Tu email (opcional)</string>
+    <string name="nc_utils_feedback_input_email_address_message">Deja que podamos contactarle introduciendo un email:</string>
+    <string name="nc_utils_feedback_hint_email_address">Su correo electrónico</string>
 
     <!-- feedback email -->
     <string name="nc_utils_feedback_email_subject">Aplicación - Comentarios</string>
     <string name="nc_utils_feedback_email_message">Hola\u002C</string>
+
 </resources>

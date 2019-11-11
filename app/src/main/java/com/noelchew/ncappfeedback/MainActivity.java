@@ -3,11 +3,12 @@ package com.noelchew.ncappfeedback;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.noelchew.ncappfeedback.library.NcAppFeedback;
 import com.noelchew.ncappfeedback.library.NcAppFeedbackListener;
@@ -15,10 +16,7 @@ import com.noelchew.ncappfeedback.library.NcAppFeedbackListener;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-    private static final String SPARKPOST_API_KEY = "insert_your_sparkpost_api_key_here";
-    private static final String SENDER_EMAIL = "sender@sparkpost.com";
     private static final String SENDER_NAME = "NcAppFeedback Demo User";
-    private static final String RECIPIENT_EMAIL = "your_email@gmail.com";
 
     private Context context;
 
@@ -40,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         etRecipientEmail = (EditText) findViewById(R.id.edit_text_recipient_email);
         btnSend = (Button) findViewById(R.id.button_send);
 
-        etSparkPostApiKey.setText(SPARKPOST_API_KEY);
-        etSenderEmail.setText(SENDER_EMAIL);
+        etSparkPostApiKey.setText(getString(R.string.sparkpost_api_key));
+        etSenderEmail.setText(getString(R.string.sparkpost_sender_email));
         etSenderName.setText(SENDER_NAME);
-        etRecipientEmail.setText(RECIPIENT_EMAIL);
+        etRecipientEmail.setText(getString(R.string.sparkpost_recipient_email));
 
         btnSend.setOnClickListener(btnSendOnClickListener);
 
@@ -71,8 +69,13 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 @Override
-                public void onFeedbackAnonymouslyError(String error) {
-                    Toast.makeText(context, "onFeedbackAnonymouslyError() error: " + error, Toast.LENGTH_SHORT).show();
+                public void onFeedbackAnonymouslyError(Throwable e) {
+                    Toast.makeText(context, "onFeedbackAnonymouslyError() error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+
+                @Override
+                public void onError(Throwable e) {
+                    Toast.makeText(context, "onError() error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
 
                 @Override
@@ -80,10 +83,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(context, "onFeedbackViaPhoneEmailClient()", Toast.LENGTH_SHORT).show();
                 }
 
-                @Override
-                public void onError(String error) {
-                    Toast.makeText(context, "onError() error: " + error, Toast.LENGTH_SHORT).show();
-                }
             }, progressDialog, ENABLE_NORMAL_EMAIL_AS_BACKUP);
         }
     };
