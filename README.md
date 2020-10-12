@@ -26,7 +26,10 @@ Application level gradle:
 
 ```
 dependencies {
-    compile 'com.github.noelchew:NcAppFeedback:x.y.z'
+    implementation 'com.github.noelchew:NcAppFeedback:x.y.z'
+    implementation 'com.github.noelchew:android-sparkpost:0.2.1'	
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'	
+    implementation 'com.google.code.gson:gson:2.8.6'
 }
 ```
 Note: do not add the jitpack.io repository under buildscript
