@@ -138,8 +138,12 @@ public class NcAppFeedback {
                                             if (!checkContext(context, listener)) {
                                                 return;
                                             }
-                                            if (progressDialog != null && !progressDialog.isShowing()) {
-                                                progressDialog.show();
+                                            if (progressDialog != null) {
+                                                if (!progressDialog.isShowing()) {
+                                                    progressDialog.show();
+                                                }
+                                            } else {
+                                                Toast.makeText(context, context.getString(R.string.nc_utils_feedback_please_wait), Toast.LENGTH_LONG).show();
                                             }
 
                                             final String userEmail = ((EditText) dialogView1.findViewById(R.id.edit_text)).getText().toString().trim();
